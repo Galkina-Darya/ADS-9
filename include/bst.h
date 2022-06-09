@@ -30,7 +30,7 @@ template <typename T>
     void depthTree(Node<T>* tree, int id) {
       ++id;
       if (tree->right != nullptr) {
-        depthTree(tree->rigth, id);
+        depthTree(tree->right, id);
       }
       if (tree->left != nullptr) {
         depthTree(tree->left, id);
