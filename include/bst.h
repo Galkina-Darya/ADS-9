@@ -48,7 +48,7 @@ template <typename T>
       }
       delete Node;
     }
-    public:
+   public:
     BST() {
       root = nullptr;
       height = 0;
