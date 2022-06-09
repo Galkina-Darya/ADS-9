@@ -72,7 +72,7 @@ template <typename T>
   }
   void Add(T item) {
     Node<T>* current = root;
-    Node<t>* prev = nullptr;
+    Node<T>* prev = nullptr;
     int pos = 0;
     while (true) {
       if (current == nullptr) {
