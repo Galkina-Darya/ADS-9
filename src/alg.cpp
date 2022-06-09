@@ -15,7 +15,7 @@ BST<std::string> makeTree(const char* filename) {
   while (!file.eof()) {
     char chr = file.get();
     int ascii = chr;
-    if ((ascii >= 65 && ascii <= 90) || (ascci >= 97 && ascii <= 122)) {
+    if ((ascii >= 65 && ascii <= 90) || (ascii >= 97 && ascii <= 122)) {
       word += tolower(ascii);
     } else {
       if (word != "") {
