@@ -27,7 +27,7 @@ template <typename T>
         printTree(tree->right, id);
       }
     }
-    void GetDepth(Node<T>* tree, int id) {
+    void depthTree(Node<T>* tree, int id) {
       ++id;
       if (tree->right != nullptr) {
         depthTree(tree->rigth, id);
