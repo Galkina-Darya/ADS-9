@@ -56,7 +56,7 @@ template <typename T>
     ~BST() {
       DelNode(root);
     }
-    int Search(T item) {
+    int search(T item) {
       Node<T>* current = root;
       while (true) {
         if (current == nullptr) {
@@ -114,7 +114,7 @@ template <typename T>
       Node<T>* current = root;
       printTree(current, 0);
     }
-    int Depth() {
+    int depth() {
       Node<T>* current = root;
       depthTree(current, 0);
       return height - 1;
