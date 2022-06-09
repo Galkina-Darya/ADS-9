@@ -19,7 +19,7 @@ BST<std::string> makeTree(const char* filename) {
       word += tolower(ascii);
     } else {
       if (word != "") {
-        Tree.add(word);
+        Tree.Add(word);
         word = "";
       }
     }
