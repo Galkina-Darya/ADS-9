@@ -7,9 +7,9 @@
 
 BST<std::string> makeTree(const char* filename) {
   BST<std::string> Tree;
-  std::ifstream file (filename);
+  std::ifstream file(filename);
   if (!file) {
-    throw std::string ("File is not found!");
+    throw std::string("File is not found!");
   }
   std::string word = "";
   while (!file.eof()) {
